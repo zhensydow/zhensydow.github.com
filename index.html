@@ -17,8 +17,90 @@
   <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:700|Signika:300' rel='stylesheet' type='text/css'> 
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="stylesheet" href="style.css"/>
+<script type="text/javascript">
+    function changePath(vis){
+        var i = 1;
+        for(i=1;i<8;i++){
+            document.getElementById("path0"+i).className = "hide";
+            document.getElementById("menu0"+i).className = "";
+        }
+        document.getElementById("path0"+vis).className = "";
+        document.getElementById("menu0"+vis).className = "selected";
+    }
+</script>
 </head>
 
 <body>
+    <div id="topbg"></div>
+    <header>
+      <h1>Luis Cabellos</h1>
+    </header>
+    <ul id="menu">
+      <li id="menu01" class="selected" onclick="changePath(1)">Education</li>
+      <li id="menu02" onclick="changePath(2)">Experience</li>
+      <li id="menu03" onclick="changePath(3)">Videogames</li>
+      <li id="menu04" onclick="changePath(4)">System Admin</li>
+      <li id="menu05" onclick="changePath(5)">Publications</li>
+      <li id="menu06" onclick="changePath(6)">Skills</li>
+      <li id="menu07" onclick="changePath(7)">Hobbies</li>
+    </ul>
+    <div class="main">
+        <ul id="path01" >
+            <li>path01 A</li>
+            <li>path01 B</li>
+            <li>path01 C</li>
+            <li>path01 D</li>
+            <li>path01 E</li>
+            <li>path01 F</li>
+        </ul>
+        <ul id="path02" class="hide">
+            <li>path02 A</li>
+            <li>path02 B</li>
+            <li>path02 C</li>
+            <li>path02 D</li>
+            <li>path02 E</li>
+            <li>path02 F</li>
+        </ul>
+        <ul id="path03" class="hide">
+            <li>path03 A</li>
+            <li>path03 B</li>
+            <li>path03 C</li>
+            <li>path03 D</li>
+            <li>path03 E</li>
+            <li>path03 F</li>
+        </ul>
+        <ul id="path04" class="hide">
+            <li>path04 A</li>
+            <li>path04 B</li>
+            <li>path04 C</li>
+            <li>path04 D</li>
+            <li>path04 E</li>
+            <li>path04 F</li>
+        </ul>
+        <ul id="path05" class="hide">
+            <li>path05 A</li>
+            <li>path05 B</li>
+            <li>path05 C</li>
+            <li>path05 D</li>
+            <li>path05 E</li>
+            <li>path05 F</li>
+        </ul>
+        <ul id="path06" class="hide">
+            <li>path06 A</li>
+            <li>path06 B</li>
+            <li>path06 C</li>
+            <li>path06 D</li>
+            <li>path06 E</li>
+            <li>path06 F</li>
+        </ul>
+        <ul id="path07" class="hide">
+            <li>path07 A</li>
+            <li>path07 B</li>
+            <li>path07 C</li>
+            <li>path07 D</li>
+            <li>path07 E</li>
+            <li>path07 F</li>
+        </ul>
+    </div>
 </body>
 </html>

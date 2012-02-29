@@ -1,0 +1,28 @@
+ul.hide {
+    display: none
+}
+
+#menu {
+    list-style-type: none;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+    width: 935px;
+    height: 25px;
+}
+
+#menu li{
+    padding: 5px;
+    float: left;
+}
+
+#menu .selected {
+    color: #ff0000;
+}
+
+div.main {
+    width: 935px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    border: 1px dotted;
+}
