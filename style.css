@@ -1,26 +1,41 @@
 /* #FFFFF4 #8FD77F #213700 #000000 #FDD142 */
 
 body {
-    background-color:#AAAAAA
+    font-family:'Signika', sans-serif;
+    background-color:#F0F0F0;
+    padding:0px;
+    margin:0px;
+}
+
+#topbg {
+    background-color: #FDD142;
+    opacity: 0.5;
+    border:1px dotted #FDD142;
+    position:absolute;
+    top:0; left:0;
+    height: 143px; width: 100%;
 }
 
 header {
-    background-color:#FFBF40;
+    font-family:'Gentium Basic', sans-serif;
+    background-color: #FDD142;
+    color: #000000;
     margin: 20px auto 0px auto;
     padding:0px;
-    width: 942px;
-    height: 123px;
-    border:1px dotted #FFBF40;
+    width: 942px; height: 123px;
+    border:1px dotted #FDD142;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 header h1{
-    margin:50px 30px 0px 30px;  
+    margin:60px 30px 0px 30px;  
 }
 
 header h3{
     float: right;
     margin: 0px;
-    padding: 0px 20px;
+    padding: 0px 60px;
 }
 
 ul.hide {
@@ -32,21 +47,34 @@ ul.hide {
     display: block;
     margin: 0px auto;
     padding: 0px;
-    width: 942px;
+    width: 938px;
     height: 25px;
 }
 
 #menu li{
     padding: 5px;
     float: left;
+    text-align: center;
+    background-color: #FF9B43;
+    color: #472B13;
+    margin: 1px;
+    padding: 0px;
+    width: 132px; height: 23px;
+}
+
+#menu li:hover {
+    background-color: #472B13;
+    color: #FF9B43;        
 }
 
 #menu .selected {
-    color: #ff0000;
+    background-color: #472B13;
+    color: #FF9B43;        
 }
 
 div.main {
-    width: 942px;
+    background-color: #FFFFFF;
+    width: 942px; height: 440px;
     margin: 0px auto;
     padding: 10px 0px;
     border: 0px dotted;
@@ -55,22 +83,22 @@ div.main {
 
 #path01 li{
     display: block;
-    background-color: #777700;
-    border: 2px solid #005500;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
 }
 
 #path01 .p1{
     position: absolute;
     width: 310px; height: 147px;
     top: 0px; left: 0px;
-    border-bottom: 1px solid #005500;
+    border-bottom: 1px solid #213700;
 }
 
 #path01 .p2{
     position: absolute;
     width: 310px; height: 57px;
     top: 150px; left: 0px;
-    border-top: 1px solid #005500;
+    border-top: 1px solid #213700;
 }
 
 #path01 .p3{
@@ -81,8 +109,8 @@ div.main {
 
 #path02 li{
     display: block;
-    background-color: #777700;
-    border: 2px solid #005500;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
 }
 
 #path02 .p1{
@@ -111,8 +139,8 @@ div.main {
 
 #path03 li{
     display: block;
-    background-color: #777700;
-    border: 2px dashed #005500;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
 }
 
 #path03 .p1{
@@ -149,4 +177,45 @@ div.main {
     position: absolute;
     width: 310px; height: 26px;
     top: 390px; left: 628px;
+}
+
+#path04 li{
+    display: block;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
+}
+
+#path05 li{
+    display: block;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
+}
+
+#path06 li{
+    display: block;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
+}
+
+#path07 li{
+    display: block;
+    background-color: #8FD77F;
+    border: 2px solid #213700;
+}
+
+footer {
+    background-color: #FF9B43;
+    color: #472B13;
+    text-align: center;
+    position: absolute;
+    width: 942px;
+    top: 430px; left: 0px;
+    margin: 0px auto;
+    padding: 0px;
+    border-top: 1px solid #FF7400;
+    border-bottom: 1px solid #FF7400;
+}
+
+footer p{
+    margin: 0px;
 }
