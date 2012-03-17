@@ -83,6 +83,12 @@ div.main {
     border-bottom-right-radius: 5px;
 }
 
+.a_img img{
+    margin: 0px;
+    padding: 0px;
+    float: right;    
+}
+
 #path01 li{
     display: block;
     background-color: #8FD77F;

@@ -16,6 +16,15 @@
   <!-- Replace favicon.ico in the root of your domain and delete these references -->
   <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:700|Signika:300' rel='stylesheet' type='text/css'> 
   <link rel="shortcut icon" href="/favicon.ico" />
+
+  <script type="text/javascript" src="highslide/highslide.js"></script>
+  <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+  <script type="text/javascript">
+    // override Highslide settings here
+    // instead of editing the highslide.js file
+    hs.graphicsDir = 'highslide/graphics/';
+  </script>
+
   <link rel="stylesheet" href="style.css"/>
 </head>
 
@@ -48,9 +57,17 @@
         <ul id="path03" class="hide">
             <li class="p1">Universidad</li>
             <li class="p2">Tragnarion</li>
-            <li class="p3">Doodle Hex</li>
+            <li class="p3">
+                Doodle Hex
+                <a class="highslide a_img" href="imgs/doodlehex01.png" onclick="return hs.expand(this)">
+                    <img src="imgs/tmbs/doodlehex01.png" alt=""/></a>
+            </li>
             <li class="p4">PyWeek: Hook the Shoot</li>
-            <li class="p5">Cell &amp; Love Android</li>
+            <li class="p5">
+                <a href="https://play.google.com/store/apps/details?id=com.mutant_games.cell_love" target="">Cell &amp; Love Android</a>
+                <a class="highslide a_img" href="imgs/cell01.jpg" onclick="return hs.expand(this)">
+                    <img src="imgs/tmbs/cell01.png" alt=""/></a>
+                </li>
             <li class="p6">Santander 2016</li>
         </ul>
         <ul id="path04" class="hide">
@@ -96,7 +113,7 @@
     function debugShow(vis){
         document.getElementById("path0"+vis).className = "";
     }
-    changePath(5);
+    changePath(3);
 </script>
 </body>
 </html>
