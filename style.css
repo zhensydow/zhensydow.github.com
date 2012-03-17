@@ -91,22 +91,22 @@ div.main {
 
 #path01 .p1{
     position: absolute;
-    width: 310px; height: 147px;
+    width: 310px; height: 197px;
     top: 0px; left: 0px;
     border-bottom: 1px solid #213700;
 }
 
 #path01 .p2{
     position: absolute;
-    width: 310px; height: 57px;
-    top: 150px; left: 0px;
+    width: 310px; height: 77px;
+    top: 200px; left: 0px;
     border-top: 1px solid #213700;
 }
 
 #path01 .p3{
     position: absolute;
-    width: 310px; height: 56px;
-    top: 300px; left: 0px;
+    width: 310px; height: 76px;
+    top: 400px; left: 0px;
 }
 
 #path02 li{
@@ -117,26 +117,28 @@ div.main {
 
 #path02 .p1{
     position: absolute;
-    width: 310px; height: 26px;
-    top: 120px; left: 314px;
+    width: 310px; height: 36px;
+    top: 160px; left: 314px;
 }
 
 #path02 .p2{
     position: absolute;
-    width: 310px; height: 86px;
-    top: 210px; left: 314px;
+    width: 310px; height: 117px;
+    top: 280px; left: 314px;
+    border-bottom: 1px solid #213700;
 }
 
 #path02 .p3{
     position: absolute;
-    width: 310px; height: 116px;
-    top: 300px; left: 314px;
+    width: 310px; height: 157px;
+    top: 400px; left: 314px;
+    border-top: 1px solid #213700;
 }
 
 #path02 .p4{
     position: absolute;
-    width: 210px; height: 26px;
-    top: 390px; left: 164px;
+    width: 210px; height: 36px;
+    top: 480px; left: 164px;
 }
 
 #path03 li{
@@ -147,38 +149,42 @@ div.main {
 
 #path03 .p1{
     position: absolute;
-    width: 310px; height: 206px;
+    width: 310px; height: 276px;
     top: 0px; left: 0px;
 }
 
 #path03 .p2{
     position: absolute;
-    width: 310px; height: 86px;
-    top: 210px; left: 314px;
+    width: 310px; height: 116px;
+    top: 280px; left: 314px;
 }
 
 #path03 .p3{
     position: absolute;
-    width: 310px; height: 26px;
-    top: 270px; left: 628px;
+    width: 310px; height: 36px;
+    top: 360px; left: 628px;
 }
 
 #path03 .p4{
     position: absolute;
-    width: 310px; height: 26px;
-    top: 330px; left: 628px;
+    width: 310px; height: 37px;
+    top: 440px; left: 628px;
+    border-bottom: 1px solid #213700;
 }
 
 #path03 .p5{
     position: absolute;
-    width: 310px; height: 26px;
-    top: 360px; left: 628px;
+    width: 310px; height: 38px;
+    top: 480px; left: 628px;
+    border-top: 1px solid #213700;
+    border-bottom: 1px solid #213700;
 }
 
 #path03 .p6{
     position: absolute;
-    width: 310px; height: 26px;
-    top: 390px; left: 628px;
+    width: 310px; height: 37px;
+    top: 520px; left: 628px;
+    border-top: 1px solid #213700;
 }
 
 #path04 li{
@@ -187,19 +193,122 @@ div.main {
     border: 2px solid #213700;
 }
 
+#path04 .p1{
+    position: absolute;
+    width: 310px; height: 276px;
+    top: 0px; left: 0px;
+}
+
+#path04 .p2{
+    position: absolute;
+    width: 310px; height: 156px;
+    top: 400px; left: 314px;
+}
+
+#path04 .p3{
+    position: absolute;
+    width: 310px; height: 37px;
+    top: 440px; left: 628px;
+    border-bottom: 1px solid #213700;
+}
+
+#path04 .p4{
+    position: absolute;
+    width: 310px; height: 38px;
+    top: 480px; left: 628px;
+    border-bottom: 1px solid #213700;
+    border-top: 1px solid #213700;
+}
+
+#path04 .p5{
+    position: absolute;
+    width: 310px; height: 37px;
+    top: 520px; left: 628px;
+    border-top: 1px solid #213700;
+}
+
 #path05 li{
     display: block;
     background-color: #8FD77F;
     border: 2px solid #213700;
 }
 
-#path06 li{
-    display: block;
-    background-color: #8FD77F;
-    border: 2px solid #213700;
+#path05 .p1{
+    position: absolute;
+    width: 310px; height: 197px;
+    top: 0px; left: 0px;
+    border-bottom: 1px solid #213700;
 }
 
-#path07 li{
+#path05 .p2{
+    position: absolute;
+    width: 310px; height: 77px;
+    top: 200px; left: 0px;
+    border-top: 1px solid #213700;
+}
+
+#path05 .p3{
+    position: absolute;
+    width: 310px; height: 76px;
+    top: 400px; left: 0px;
+}
+
+#path05 .p4{
+    position: absolute;
+    width: 310px; height: 36px;
+    top: 160px; left: 314px;
+}
+
+#path05 .p5{
+    position: absolute;
+    width: 310px; height: 117px;
+    top: 280px; left: 314px;
+    border-bottom: 1px solid #213700;
+}
+
+#path05 .p6{
+    position: absolute;
+    width: 310px; height: 157px;
+    top: 400px; left: 314px;
+    border-top: 1px solid #213700;
+}
+
+#path05 .p7{
+    position: absolute;
+    width: 310px; height: 36px;
+    top: 360px; left: 628px;
+}
+
+#path05 .p8{
+    position: absolute;
+    width: 310px; height: 37px;
+    top: 440px; left: 628px;
+    border-bottom: 1px solid #213700;
+}
+
+#path05 .p9{
+    position: absolute;
+    width: 310px; height: 38px;
+    top: 480px; left: 628px;
+    border-top: 1px solid #213700;
+    border-bottom: 1px solid #213700;
+}
+
+#path05 .pA{
+    position: absolute;
+    width: 155px; height: 37px;
+    top: 520px; left: 628px;
+    border-top: 1px solid #213700;
+}
+
+#path05 .pB{
+    position: absolute;
+    width: 155px; height: 37px;
+    top: 520px; left: 783px;
+    border-top: 1px solid #213700;
+}
+
+#path06 li{
     display: block;
     background-color: #8FD77F;
     border: 2px solid #213700;
@@ -211,7 +320,7 @@ footer {
     text-align: center;
     position: absolute;
     width: 942px;
-    top: 430px; left: 0px;
+    top: 570px; left: 0px;
     margin: 0px auto;
     padding: 0px;
     border-top: 1px solid #FF7400;
