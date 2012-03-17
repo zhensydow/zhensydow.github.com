@@ -30,9 +30,8 @@
       <li id="menu02" onclick="changePath(2)">Experience</li>
       <li id="menu03" onclick="changePath(3)">Videogames</li>
       <li id="menu04" onclick="changePath(4)">System Admin</li>
-      <li id="menu05" onclick="changePath(5)">Publications</li>
-      <li id="menu06" onclick="changePath(6)">Skills</li>
-      <li id="menu07" onclick="changePath(7)">Hobbies</li>
+      <li id="menu05" onclick="changePath(5)">Skills</li>
+      <li id="menu06" onclick="changePath(6)">Hobbies</li>
     </ul>
     <div class="main">
             <ul id="path01" class="hide">
@@ -78,27 +77,22 @@
             <li>path06 E</li>
             <li>path06 F</li>
         </ul>
-        <ul id="path07" class="hide">
-            <li>path07 A</li>
-            <li>path07 B</li>
-            <li>path07 C</li>
-            <li>path07 D</li>
-            <li>path07 E</li>
-            <li>path07 F</li>
-        </ul>
     <footer><p>&copy; Copyright  by Luis Cabellos 2012</p></footer>
     </div>
 <script type="text/javascript">
     function changePath(vis){
         var i = 1;
-        for(i=1;i<8;i++){
+        for(i=1;i<7;i++){
             document.getElementById("path0"+i).className = "hide";
             document.getElementById("menu0"+i).className = "";
         }
         document.getElementById("path0"+vis).className = "";
         document.getElementById("menu0"+vis).className = "selected";
     }
-    changePath(1);
+    function debugShow(vis){
+        document.getElementById("path0"+vis).className = "";
+    }
+    changePath(5);
 </script>
 </body>
 </html>

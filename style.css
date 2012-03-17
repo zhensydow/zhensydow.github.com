@@ -47,7 +47,7 @@ ul.hide {
     display: block;
     margin: 0px auto;
     padding: 0px;
-    width: 938px;
+    width: 942px;
     height: 25px;
 }
 
@@ -59,7 +59,7 @@ ul.hide {
     color: #472B13;
     margin: 1px;
     padding: 0px;
-    width: 132px; height: 23px;
+    width: 155px; height: 23px;
 }
 
 #menu li:hover {
@@ -74,11 +74,13 @@ ul.hide {
 
 div.main {
     background-color: #FFFFFF;
-    width: 942px; height: 440px;
+    width: 942px; height: 580px;
     margin: 0px auto;
     padding: 10px 0px;
     border: 0px dotted;
     position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #path01 li{
