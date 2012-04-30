@@ -273,6 +273,23 @@ ol.info li{
     border-top: 1px solid #213700;
 }
 
+p.title{
+    font-weight:bold;
+    margin: 1px;
+}
+
+p.subtitle{
+    font-size:x-small;
+    margin: 1px;
+    padding-left: 5px;
+}
+
+p.text{
+    font-size:small;
+    margin: 1px;
+    padding-left:2px;
+}
+
 footer {
     background-color: #FF9B43;
     color: #472B13;

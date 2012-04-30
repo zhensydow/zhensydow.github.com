@@ -44,9 +44,20 @@
     </ul>
     <div class="main">
         <ul id="path01" class="hide">
-            <li class="p1">Ingeniero Técnico</li>
-            <li class="p2">Ingeniero Superior</li>
-            <li class="p3">Master Computación Cientifica</li>
+          <li class="p1">
+	        <p class="title">Technical Computing Engineering</p>
+	        <p class="subtitle">(Ingeniero Técnico en Informática de Sistemas)</p>
+	        <p class="text"><a href="http://www.uniovi.es">University of Oviedo</a> - Oviedo</p>
+          </li>
+          <li class="p2">
+	        <p class="title">Computer Science</p>
+		    <p class="subtitle">(Ingeniero Superior de Informática)</p>
+	        <p class="text"><a href="http://www.uniovi.es">University of Oviedo</a> - Gijón</p>
+          </li>
+          <li class="p3">
+	        <p class="title">Master in Scientific Computing</p>
+	        <p class="text"><a href="http://www.unican.es">University of Cantabria</a> - Santander</p>
+	      </li>
         </ul>
         <ul id="path02" class="hide">
             <li class="p1">Beca</li>
@@ -82,17 +93,46 @@
             <li class="p5">Skema Platform</li>
         </ul>
         <ul id="path05" class="hide">
-            <li class="p1">Universidad I</li>
-            <li class="p2">Universidad II</li>
-            <li class="p3">Master</li>
-            <li class="p4">Trabajo I</li>
-            <li class="p5">Trabajo II</li>
-            <li class="p6">Trabajo III</li>
-            <li class="p7">Producto I</li>
-            <li class="p8">Producto II</li>
-            <li class="p9">Producto III</li>
-            <li class="pA">Producto IV</li>
-            <li class="pB">Producto V</li>
+            <li class="p1">
+                <ol class="info">
+                    <li>Computer Graphics</li>
+                    <li>Functional Programming</li>
+                    <li>Pascal, C, C++, Haskell</li>
+                </ol>
+            </li>
+            <li class="p2">
+                <ol class="info">
+                    <li>Computer Graphics</li>
+                    <li>C, C++</li>
+                </ol>
+            </li>
+            <li class="p3">
+                <ol class="info">
+                    <li>Experimental Physics</li>
+                    <li>Realtime Systems</li>
+                </ol>
+            </li>
+            <li class="p4">C++</li>
+            <li class="p5">
+                <ol class="info">
+                   <li>Game Development</li>
+                   <li>C++, Python, Lua</li>
+                   <li>Unreal</li>
+                   <li>Nintendo DS</li>
+                </ol>
+            </li>
+            <li class="p6">
+                <ol class="info">
+                    <li>Linux Admin, Cluster Admin</li>
+                    <li>High Performance Computing</li>
+                    <li>DBMS, webservices</li>
+                </ol>
+            </li>
+            <li class="p7">Nintendo DS</li>
+            <li class="p8">PyGame</li>
+            <li class="p9">Android</li>
+            <li class="pA">UDK</li>
+            <li class="pB">Haskell/OpenCL</li>
         </ul>
         <ul id="path06" class="hide">
             <li>path06 A</li>
@@ -117,7 +157,7 @@
     function debugShow(vis){
         document.getElementById("path0"+vis).className = "";
     }
-    changePath(3);
+    changePath(1);
 </script>
 </body>
 </html>
