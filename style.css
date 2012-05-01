@@ -96,15 +96,6 @@ div.main {
     border: 2px solid #213700;
 }
 
-ol.info{
-    padding: 0px;
-}
-
-ol.info li{
-    position:static;
-    border: 0px;
-}
-
 #path01 .p1{
     width: 310px; height: 197px;
     top: 0px; left: 0px;
@@ -243,7 +234,6 @@ ol.info li{
 }
 
 #path05 .p7{
-    position: absolute;
     width: 310px; height: 36px;
     top: 360px; left: 628px;
 }
@@ -273,6 +263,35 @@ ol.info li{
     border-top: 1px solid #213700;
 }
 
+#path06 .p1{
+    width: 310px; height: 557px;
+    top: 0px; left: 0px;
+}
+
+#path06 .p2{
+    width: 310px; height: 317px;
+    top: 0px; left: 314px;
+    border-bottom: 1px solid #213700;
+}
+
+#path06 .p3{
+    width: 310px; height: 238px;
+    top: 320px; left: 314px;
+    border-top: 1px solid #213700;
+}
+
+#path06 .p4{
+    width: 310px; height: 277px;
+    top: 0px; left: 628px;
+    border-bottom: 1px solid #213700;
+}
+
+#path06 .p5{
+    width: 310px; height: 278px;
+    top: 280px; left: 628px;
+    border-top: 1px solid #213700;
+}
+
 p.title{
     font-weight:bold;
     margin: 1px;
@@ -288,6 +307,15 @@ p.text{
     font-size:small;
     margin: 1px;
     padding-left:2px;
+}
+
+ol.info{
+    padding: 0px;
+}
+
+ol.info li{
+    position:static;
+    border: 0px;
 }
 
 footer {
