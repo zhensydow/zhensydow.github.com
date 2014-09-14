@@ -20,6 +20,12 @@ $(function() {
     })
 })
 
+function goLink( link ){
+    var params = { lang:currentLang };
+    var str = jQuery.param( params );
+    window.location = link+"?"+str
+}
+
 function getUrlVars(){
     var vars = [], hash;
     var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
