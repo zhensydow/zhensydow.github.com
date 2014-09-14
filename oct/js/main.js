@@ -1,6 +1,7 @@
 /* LANGUAGE ================================================================= */
+var currentLang = "ES"
+
 $(function() {
-    var currentLang = "ES"
     var paramLang = getUrlVars()["lang"]
 
     if( !paramLang ){
