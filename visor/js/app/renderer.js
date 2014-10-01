@@ -19,7 +19,10 @@
 define( ["THREE", "container"], function( THREE, container ){
     container.innerHTML = "";
 
-    var renderer = new THREE.WebGLRenderer( { clearColor: 0xFF0000 } );
+    var renderer = new THREE.WebGLRenderer( { antialias: true } );
+    renderer.setClearColor( 0x101010, 1 );
+    renderer.gamaInput = true;
+    renderer.gamaOutput = true;
 
     container.appendChild( renderer.domElement );
 

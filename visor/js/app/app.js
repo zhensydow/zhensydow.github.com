@@ -35,11 +35,11 @@ define( ["THREE", "renderer", "camera", "scene", "OBJLoader" ], function( THREE,
                 console.log( item, loaded, total );
             };
 
-            var ambient = new THREE.AmbientLight( 0x101030 );
+            var ambient = new THREE.AmbientLight( 0x303030 );
             scene.add( ambient );
 
-            var directionalLight = new THREE.DirectionalLight( 0xffeedd );
-            directionalLight.position.set( 0, 0, 1 );
+            var directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );
+            directionalLight.position.set( 0, 1, 1 ).normalize();
             scene.add( directionalLight );
 
             app.blankMaterial = new THREE.MeshLambertMaterial({color: 0xffffff});
@@ -52,6 +52,7 @@ define( ["THREE", "renderer", "camera", "scene", "OBJLoader" ], function( THREE,
                 color: 0x040404, specular: 0x666666, emissive: 0x0f0000,
                 ambient: 0x0f0f0f, shininess: 10, shading: THREE.SmoothShading
             });
+            app.materials['mat04'] = new THREE.MeshNormalMaterial({});
 
             app.loader = new THREE.OBJLoader( app.manager );
         },
