@@ -17,6 +17,7 @@
  * @author Luis Cabellos
  */
 var require = {
+    waitSeconds: 60,
     // Default load path for js files
     baseUrl: 'js/app',
     shim: {
