@@ -44,9 +44,14 @@ define( ["THREE", "renderer", "camera", "scene", "OBJLoader" ], function( THREE,
 
             app.blankMaterial = new THREE.MeshLambertMaterial({color: 0xffffff});
 
-            app.materials['mat01'] = new THREE.MeshLambertMaterial({color: 0x0f00ff});
-            app.materials['mat02'] = new THREE.MeshLambertMaterial({color: 0xff000f});
-            app.materials['mat03'] = new THREE.MeshLambertMaterial({color: 0x00ff0f});
+            app.materials['mat01'] = new THREE.MeshLambertMaterial({
+                color: 0x0f00ff });
+            app.materials['mat02'] = new THREE.MeshLambertMaterial({
+                color: 0xff000f, shading: THREE.SmoothShading});
+            app.materials['mat03'] = new THREE.MeshPhongMaterial({
+                color: 0x040404, specular: 0x666666, emissive: 0x0f0000,
+                ambient: 0x0f0f0f, shininess: 10, shading: THREE.SmoothShading
+            });
 
             app.loader = new THREE.OBJLoader( app.manager );
         },
