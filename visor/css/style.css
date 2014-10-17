@@ -1,0 +1,13 @@
+#threejs-container {
+    width: 600px;
+    height: 400px;
+}
+
+.button {
+    cursor: pointer;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
