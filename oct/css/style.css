@@ -7,3 +7,24 @@ body {
 a {
     cursor: pointer;
 }
+
+.fnt1 {
+    font-family: 'Architects Daughter', cursive; font-size: 180%;
+}
+
+.fnt2 {
+}
+
+.fnt3 {
+}
+
+.fnt4 {
+    font-family: 'Gentium Book Basic', serif; font-size: 200%;
+}
+
+.fnt5 {
+}
+
+.fnt6 {
+    font-family: 'Italianno', cursive; font-size: 280%;
+}
