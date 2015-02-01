@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
 
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
   <!-- Replace favicon.ico in the root of your domain and delete these references -->
-  <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:700|Signika:300' rel='stylesheet' type='text/css'> 
+  <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:700|Signika:300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="/favicon.ico" />
 
   <script type="text/javascript" src="highslide/highslide.js"></script>
@@ -45,19 +45,19 @@
     <div class="main">
         <ul id="path01" class="hide">
           <li class="p1">
-	        <p class="title">Technical Computing Engineering</p>
-	        <p class="subtitle">(Ingeniero Técnico en Informática de Sistemas)</p>
-	        <p class="text"><a href="http://www.uniovi.es">University of Oviedo</a> - Oviedo</p>
+            <p class="title">Technical Computing Engineering</p>
+            <p class="subtitle">(Ingeniero Técnico en Informática de Sistemas)</p>
+            <p class="text"><a href="http://www.uniovi.es">University of Oviedo</a> - Oviedo</p>
           </li>
           <li class="p2">
-	        <p class="title">Computer Science</p>
-		    <p class="subtitle">(Ingeniero Superior de Informática)</p>
-	        <p class="text"><a href="http://www.uniovi.es">University of Oviedo</a> - Gijón</p>
+            <p class="title">Computer Science</p>
+            <p class="subtitle">(Ingeniero Superior de Informática)</p>
+            <p class="text"><a href="http://www.uniovi.es">University of Oviedo</a> - Gijón</p>
           </li>
           <li class="p3">
-	        <p class="title">Master in Scientific Computing</p>
-	        <p class="text"><a href="http://www.unican.es">University of Cantabria</a> - Santander</p>
-	      </li>
+            <p class="title">Master in Scientific Computing</p>
+            <p class="text"><a href="http://www.unican.es">University of Cantabria</a> - Santander</p>
+          </li>
         </ul>
         <ul id="path02" class="hide">
             <li class="p1">
@@ -79,8 +79,21 @@
             </li>
         </ul>
         <ul id="path03" class="hide">
-            <li class="p1">Universidad</li>
-            <li class="p2">Tragnarion</li>
+            <li class="p1">
+              <p class="title">Universidad</p>
+                <ol class="info">
+                    <li>Computer Graphics I and II</li>
+                    <li>Computational Geometry</li>
+                    <li>Related thesis</li>
+                </ol>
+            </li>
+            <li class="p2">
+                <p class="title">Tragnarion</p>
+                <ol class="info">
+                    <li>OpenSource Nebula 2 Engine</li>
+                    <li>Nintendo DS project</li>
+                </ol>
+            </li>
             <li class="p3">
                 <a href="http://www.doodlehex.com/">Doodle Hex</a>
                 <a class="highslide a_img" href="imgs/doodlehex01.png" onclick="return hs.expand(this)">
@@ -96,13 +109,27 @@
                 <a class="highslide a_img" href="imgs/cell01.jpg" onclick="return hs.expand(this)">
                     <img src="imgs/tmbs/cell01.png" alt=""/></a>
                 </li>
-            <li class="p6">Santander 2016</li>
+            <li class="p6">
+              <p class="title">Santander 2016</p>
+              <p class="subtitle">European European Capital of Culture Game Project</p>
+            </li>
+            <li class="p7">
+              <p class="title">Concano Games</p>
+              <p class="subtitle">Own Videogame Startup</p>
+            </li>
+            <li class="p8">
+              <p class="subtitle"><b>Article:</b> Cuckoo Search with Lévy Flights for Weighted Bayesian Energy Functional Optimization in Global-Support Curve Data Fitting</p>
+            </li>
         </ul>
         <ul id="path04" class="hide">
             <li class="p1">Universidad</li>
             <li class="p2">IFCA</li>
-            <li class="p3">Articulo 1</li>
-            <li class="p4">Articulo 2</li>
+            <li class="p3">
+              <p class="subtitle"><b>Article:</b> Scientiﬁc workﬂow orchestration interoperating HTC and HPC resources</p>
+            </li>
+            <li class="p4">
+              <p class="subtitle"><b>Article:</b> Advanced Programming Platform for efficient use of Data Parallel Hardware</p>
+            </li>
             <li class="p5">Skema Platform</li>
         </ul>
         <ul id="path05" class="hide">
@@ -164,7 +191,7 @@
                 <p class="title">Science</p>
             </li>
         </ul>
-    <footer><p>&copy; Copyright  by Luis Cabellos 2012</p></footer>
+    <footer><p>&copy; Copyright  by Luis Cabellos 2014</p></footer>
     </div>
 <script type="text/javascript">
     function changePath(vis){
@@ -179,7 +206,7 @@
     function debugShow(vis){
         document.getElementById("path0"+vis).className = "";
     }
-    changePath(2);
+    changePath(4);
 </script>
 </body>
 </html>
