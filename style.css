@@ -209,6 +209,11 @@ div.main {
     border-top: 1px solid #213700;
 }
 
+#path04 .p6{
+    width: 310px; height: 36px;
+    top: 600px; left: 628px;
+}
+
 #path05 .p1{
     width: 310px; height: 197px;
     top: 0px; left: 0px;
@@ -238,7 +243,7 @@ div.main {
 }
 
 #path05 .p6{
-    width: 310px; height: 157px;
+    width: 310px; height: 237px;
     top: 400px; left: 314px;
     border-top: 1px solid #213700;
 }
@@ -271,6 +276,11 @@ div.main {
     width: 155px; height: 37px;
     top: 520px; left: 783px;
     border-top: 1px solid #213700;
+}
+
+#path05 .p10{
+    width: 310px; height: 36px;
+    top: 600px; left: 628px;
 }
 
 #path06 .p1{
